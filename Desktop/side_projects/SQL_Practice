@@ -18,4 +18,6 @@ SELECT * FROM movies WHERE name LIKE '%man%';
 
 SELECT * FROM movies WHERE name BETWEEN 'A' AND 'J';
 
-SELECT * FROM movies WHERE year BETWEEN 1990 AND 2000 AND genre='comedy';
+SELECT * FROM movies WHERE year BETWEEN 1990 AND 2000 AND genre='comedy';ggi
+
+SELECT * FROM movies WHERE genre = 'comedy' OR year < 1980;
