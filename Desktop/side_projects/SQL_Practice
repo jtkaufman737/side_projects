@@ -7,3 +7,5 @@ SELECT * FROM celebs;
 SELECT name,imdb_rating FROM movies;
 
 SELECT DISTINCT genre FROM movies;
+
+SELECT * FROM movies WHERE imdb_rating >8;
