@@ -23,3 +23,5 @@ SELECT * FROM movies WHERE year BETWEEN 1990 AND 2000 AND genre='comedy';ggi
 SELECT * FROM movies WHERE genre = 'comedy' OR year < 1980;
 
 SELECT * FROM movies ORDER BY imdb_rating DESC;
+
+SELECT * FROM movies ORDER BY imdb_rating ASC LIMIT 3;
