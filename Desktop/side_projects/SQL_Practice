@@ -33,3 +33,9 @@ SELECT price, COUNT(*) FROM fake_apps WHERE downloads > 20000 GROUP BY price;
 SELECT SUM(downloads) FROM fake_apps;
 
 SELECT category, SUM(downloads) FROM fake_apps GROUP BY category;
+
+SELECT name, category, MAX(downloads) FROM fake_apps GROUP BY category;
+
+SELECT AVG(downloads) FROM fake_apps;
+
+SELECT price AVG(downloads) FROM fake_apps GROUP BY price;
