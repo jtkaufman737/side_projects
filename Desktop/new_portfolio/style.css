@@ -1,0 +1,11 @@
+html {
+  color:red;
+}
+
+#one {
+  width:110%;
+  background-image:url('poly_one.jpg');
+  position:cover;
+  height:300px;
+  margin-left:-1%;
+}
