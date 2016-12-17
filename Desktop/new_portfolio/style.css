@@ -2,10 +2,26 @@ html {
   color:red;
 }
 
+#intro{
+  width:110%;
+  font-family: 'Open Sans', sans-serif;
+  color:white;
+  background-color:black;
+  letter-spacing: 10px;
+  font-size:45px;
+  margin-left:-2%;
+  margin-top:-5%;
+  font-weight:100;
+}
 #one {
   width:110%;
   background-image:url('poly_one.jpg');
-  position:cover;
+  /*position:absolute;*/
   height:300px;
   margin-left:-1%;
+}
+
+#hello{
+  height:200px;
+  margin-top:-10%;
 }
